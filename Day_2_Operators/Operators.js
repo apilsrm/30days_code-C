@@ -1,3 +1,6 @@
+//        Day 2 : Operators 
+
+// **************** Activity 1 : Arithmetic Operations ****************
 // Task 1: Write a program to add two numbers and log the result to the console.
 let a = 10;
 let b = 5;
@@ -24,7 +27,7 @@ let rem = 50 % 3;
 console.log(`Remainder: ${rem}`); // Output: Remainder: 2
 
 
-// Activity 2: Assignment Operators **********************************
+//*************** Activity 2: Assignment Operators ***************
 
 // Task 6: Use the += operator to add a number to a variable and log the result to the console.
 let c = 20;
@@ -36,7 +39,7 @@ let d = 15;
 d--;
 console.log(`d after --> ${d}`); // Output: d after --> 14
 
-// Activity 3: Comparison Operators***********************
+// ****************Activity 3: Comparison Operators******************
 
 // Task 8: Write a program to compare two numbers using > and < and log the result to the console.
 let e = 7;
@@ -58,7 +61,7 @@ console.log(`e === g: ${e === g}`); // Output: e === g: false (strict equality)
 // In this case, JavaScript tries to convert the string "7" to a number. Since g="7" represents a valid numeric string, it's successfully converted to the number 7.
 
 
-// Activity 4: Logical Operators***********************
+// **************** Activity 4: Logical Operators***********************
 
 // Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
 let h = 5;
@@ -76,13 +79,13 @@ let k = false;
 console.log(`!k: ${!k}`); // Output: !k: true
 
 
-// Activity 5: Ternary Operator****************
+// **************** Activity 5: Ternary Operator****************
 // Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.
 let l = -3;
 let result = l >= 0 ? "Positive" : "Negative";
 console.log(`The number is: ${result}`); // Output: The number is: Negative
 
-//************ */ Feature Request:**************
+//************* Feature Request:**************
 // 1. Arithmetic Operations Script: Write a script that performs basic arithmetic operations (addition, subtraction, multiplication, division, remainder) on two numbers and logs the results.
 let num1 = 8;
 let num2 = 3;

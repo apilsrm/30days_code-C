@@ -1,6 +1,7 @@
 // Day 1: Variables and Data Types
-// Activity 1: Variable Declaration
-// • Task 1: Declare a variable using var, assign it a number, and log the value to the console.
+
+// ********** Activity 1: Variable Declaration **********
+//Task 1: Declare a variable using var, assign it a number, and log the value to the console.
 
 // Declaring a variable using var and assigning it a number
 var num = 42;
@@ -8,7 +9,7 @@ var num = 42;
 console.log(num); // Output: 42
 
 
-// • Task 2: Declare a variable using let, assign it a string, and log the value to the console.
+//Task 2: Declare a variable using let, assign it a string, and log the value to the console.
 // Declaring a variable using let and assigning it a string
 let greeting = "Hello, World! Its me";
 
@@ -16,8 +17,8 @@ let greeting = "Hello, World! Its me";
 console.log(greeting); // Output: Hello, World! Its me
 
 
-// Activity 2: Constant Declaration
-// • Task 3: Declare a variable using const, assign it a boolean value, and log the value to the console.
+// ********** Activity 2: Constant Declaration **********
+// Task 3: Declare a variable using const, assign it a boolean value, and log the value to the console.
 // Declaring a variable using const and assigning it a boolean value
 const isJavaScriptFun = true;
 
@@ -26,8 +27,8 @@ console.log(isJavaScriptFun); // Output: true
 
 
 
-// Activity 3: Data Types
-// • Task 4: Create variables of different data types (number, string, boolean, object, array) and log each variable's type using the typeof operator.
+// ********** Activity 3: Data Types **********
+// Task 4: Create variables of different data types (number, string, boolean, object, array) and log each variable's type using the typeof operator.
 // Number
 let age = 25;
 console.log(typeof age); // Output: number
@@ -52,8 +53,8 @@ let colors = ["red", "green", "blue"];
 console.log(typeof colors); // Output: object
 
 
-// Activity 4: Reassigning Variables
-// • Task 5: Declare a variable using let, assign it an initial value, reassign a new value, and log both values to the console.
+// ********** Activity 4: Reassigning Variables **********
+// Task 5: Declare a variable using let, assign it an initial value, reassign a new value, and log both values to the console.
 // Declaring a variable using let and assigning an initial value
 let city = "New York";
 console.log(city); // Output: New York
@@ -63,8 +64,8 @@ city = "Los Angeles";
 console.log(city); // Output: Los Angeles
 
 
-// Activity 5: Understanding const
-// • Task 6: Try reassigning a variable declared with const and observe the error.
+// ********** Activity 5: Understanding const **********
+// Task 6: Try reassigning a variable declared with const and observe the error.
 
 // Declaring a variable using const and assigning an initial value
 const country = "USA";
@@ -77,7 +78,8 @@ try {
   console.error(error); // Output: TypeError: Assignment to constant variable.
 }
 
-//Feature Request:
+
+//******Feature Request:********
 // 1. Variable Types Console Log: Write a script that declares variables of different data types and logs both the value and type of each variable to the console.
 
 // Declare variables of different data types
